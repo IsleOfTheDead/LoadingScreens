@@ -15,16 +15,16 @@ modded class LoadingScreen
 {
   private ref array<string> m_LoadScreenImages =
   {
-    "{3C2637DE079375AF}LoadingScreens/gui/textures/loading_screens/loading_screen_1_co.edds",
-    "{323873963A647A75}LoadingScreens/gui/textures/loading_screens/loading_screen_2_co.edds",
-    "{C460C814A6CF2B7A}LoadingScreens/gui/textures/loading_screens/loading_screen_3_co.edds",
-    "{2E04FB06418A65C1}LoadingScreens/gui/textures/loading_screens/loading_screen_4_co.edds"
+    "{3C2637DE079375AF}LoadingScreens\gui\textures\loading_screens\loading_screen_1_co.edds",
+    "{323873963A647A75}LoadingScreens\gui\textures\loading_screens\loading_screen_2_co.edds",
+    "{C460C814A6CF2B7A}LoadingScreens\gui\textures\loading_screens\loading_screen_3_co.edds",
+    "{2E04FB06418A65C1}LoadingScreens\gui\textures\loading_screens\loading_screen_4_co.edds"
   };
-  private string m_LoadScreenMask = "{D0B019E99494C49F}LoadingScreens/gui/textures/loading_screens/loading_screen_mask.edds";
+  private string m_LoadScreenMask = "{D0B019E99494C49F}LoadingScreens\gui\textures\loading_screens\loading_screen_mask.edds";
 
   string LoginScreenImage()
   {
-    return "{94411507AB3110E6}LoadingScreens/gui/textures/loading_screens/loading_screen_co.edds";
+    return "{94411507AB3110E6}LoadingScreens\gui\textures\loading_screens\loading_screen_co.edds";
   }
 
   private int m_LastLoadScreen = -1;
